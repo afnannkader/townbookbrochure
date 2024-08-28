@@ -1,17 +1,11 @@
 /* Hero section */
 .hero {
-<<<<<<< HEAD
-  background: url("your-image.jpg") no-repeat center center/cover;
-=======
->>>>>>> 9e54551 (messafe)
   color: white;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
-<<<<<<< HEAD
-=======
   padding: 20px;
 }
 
@@ -25,13 +19,10 @@
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
->>>>>>> 9e54551 (messafe)
 }
 
 .hero h1 {
   font-size: 3.5rem;
-<<<<<<< HEAD
-=======
   margin-bottom: 20px;
 }
 
@@ -43,22 +34,10 @@
 .hero h4 {
   font-size: 1.5rem;
   margin-bottom: 20px;
->>>>>>> 9e54551 (messafe)
 }
 
 .hero p {
   font-size: 1.25rem;
-<<<<<<< HEAD
-}
-/* Hero Section Ends  */
-
-/* About section */
-.about {
-  margin-top: 0px;
-  margin-bottom: 80px;
-}
-
-=======
   margin-bottom: 20px;
 }
 
@@ -204,7 +183,6 @@
     font-size: 0.9rem;
   }
 }
->>>>>>> 9e54551 (messafe)
 /* Services section */
 .services .card {
   transition: transform 0.3s;
@@ -213,18 +191,6 @@
 .services .card:hover {
   transform: scale(1.05);
 }
-<<<<<<< HEAD
-
-/* Image containers */
-.image-container {
-  display: flex;
-  justify-content: center;
-  /* Centers horizontally */
-  align-items: center;
-  /* Centers vertically */
-  height: 100vh;
-  /* Set a height for vertical centering */
-=======
 #about-second {
   padding: 50px 0;
   background-color: #f9f9f9; /* Optional background color */
@@ -245,7 +211,6 @@
   justify-content: center; /* Centers horizontally */
   align-items: center; /* Centers vertically */
   height: 100vh; /* Set a height for vertical centering */
->>>>>>> 9e54551 (messafe)
   margin-top: 10px;
 }
 
@@ -256,54 +221,6 @@
   height: auto;
 }
 
-<<<<<<< HEAD
-.image-container1 {
-  display: flex;
-  align-items: center;
-  /* Centers images vertically within the container */
-  justify-content: center;
-  /* Centers images horizontally within the container */
-  width: 80%;
-  /* Set the desired width of the container */
-  height: 400px;
-  /* Adjust the height as needed */
-  margin: 0 auto;
-  /* Center the container horizontally */
-  margin-top: 80px;
-  margin-bottom: 80px;
-  border-radius: 5px;
-  padding: 0;
-  /* Remove padding to ensure images are flush with borders */
-  box-sizing: border-box;
-  /* Ensure padding and border are included in width and height */
-  overflow: hidden;
-  /* Hide any overflow content */
-}
-
-.image-container1 img {
-  border-radius: 5px;
-  /* Optional: Adds rounded corners to the images */
-  object-fit: contain;
-  /* Ensures the full image is shown within the container */
-  height: 100%;
-  /* Fill the container height */
-  object-position: center top;
-  /* Adjust this to align the image as needed */
-}
-
-.image-container1 img:first-child {
-  width: 70%;
-  /* Set width of the first image */
-  margin-right: 15px;
-  /* Adds a 15px gap to the right of the first image */
-}
-
-.image-container1 img:last-child {
-  width: 1000%;
-  /* Default width for the second image */
-  height: 100%;
-  /* Fill the container height */
-=======
 /* Image Container 1 Styles */
 .image-container1 {
   display: flex;
@@ -358,7 +275,6 @@
   .image-container1 img {
     width: 100%; /* Full width for small screens */
   }
->>>>>>> 9e54551 (messafe)
 }
 
 /* Custom horizontal rule */
@@ -370,12 +286,7 @@
   border: 1px solid #888;
   /* Light grey color */
 }
-<<<<<<< HEAD
-
-/* Card styling */
-=======
  /* Card styling */
->>>>>>> 9e54551 (messafe)
 .card {
   border: none;
   background-color: #f8f9fa;
@@ -446,10 +357,6 @@ p {
   padding-right: 25px;
   /* Add space for the arrow */
   display: inline-block;
-<<<<<<< HEAD
-
-=======
->>>>>>> 9e54551 (messafe)
   float: right;
 }
 
@@ -516,17 +423,6 @@ body {
   font-style: normal;
 }
 
-<<<<<<< HEAD
-h2 {
-  color: #6c757d;
-  /* Grey color */
-  font-weight: 600;
-  /* Slightly bold */
-  font-family: "AnkeMalayalam", sans-serif;
-  /* Apply AnkeMalayalam font */
-  letter-spacing: 0px;
-  /* Reduce letter spacing */
-=======
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   .card-title {
@@ -611,7 +507,6 @@ h4 {
   font-weight: 600; /* Slightly bold */
   font-family: "AnkeMalayalam", sans-serif; /* Apply AnkeMalayalam font */
   margin-top: 10px;
->>>>>>> 9e54551 (messafe)
 }
 
 .highlight-blue {
@@ -622,39 +517,6 @@ h4 {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-h4,
-h3 {
-  color: #6c757d;
-  /* Grey color */
-}
-
-#about-third {
-  margin-top: 50px;
-}
-
-#about-fourth {
-  margin-top: 50px;
-}
-
-.img-fluid1 {
-  max-width: 150px;
-  height: auto;
-  margin-right: 20px;
-}
-
-.img-image {
-  max-width: 450px;
-  margin-left: 0px;
-  padding-left: 0px;
-}
-
-.special {
-  color: #333;
-  font-weight: 700;
-}
-
-=======
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   h2 {
@@ -761,33 +623,15 @@ h3 {
 }
 
 /* Flex Container */
->>>>>>> 9e54551 (messafe)
 .flex-container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-<<<<<<< HEAD
-=======
   flex-wrap: wrap; /* Allow wrapping for smaller screens */
->>>>>>> 9e54551 (messafe)
 }
 
 .flex-container p {
   margin: 0;
-<<<<<<< HEAD
-  /* Remove default margin for better alignment */
-  margin-left: 400px;
-  margin-top: -20px;
-  font-weight: 300;
-  color: #007bff;
-}
-
-.company-title {
-  font-size: 24px;
-  font-weight: bold;
-}
-
-=======
   margin-left: 0; /* Remove fixed margin-left for responsiveness */
   margin-top: 0; /* Adjust margin-top for better alignment */
   font-weight: 300;
@@ -815,15 +659,12 @@ h3 {
 }
 
 /* Company Logo */
->>>>>>> 9e54551 (messafe)
 .company-logo {
   max-width: 150px;
   max-height: 50px;
   margin-right: 15px;
 }
 
-<<<<<<< HEAD
-=======
 /* Responsive Adjustments for Company Logo */
 @media (max-width: 768px) {
   .company-logo {
@@ -840,19 +681,12 @@ h3 {
 }
 
 /* Grid Section */
->>>>>>> 9e54551 (messafe)
 .grid-section {
   margin-bottom: 20px;
   border-bottom: 1px solid #ccc;
   padding-bottom: 10px;
 }
 
-<<<<<<< HEAD
-.company-description {
-  font-size: 14px;
-}
-
-=======
 /* Company Description */
 .company-description {
   font-size: 14px; /* Default size */
@@ -872,22 +706,16 @@ h3 {
 }
 
 /* Company Link */
->>>>>>> 9e54551 (messafe)
 .company-link {
   text-decoration: none;
   color: #007bff;
 }
 
-<<<<<<< HEAD
-=======
 /* Custom Horizontal Rule */
->>>>>>> 9e54551 (messafe)
 .custom-hr1 {
   width: 100%;
   border: 1px solid #888;
 }
-<<<<<<< HEAD
-=======
 /* Top Right Image */
 .top-right-image {
   position: absolute;
@@ -931,39 +759,16 @@ section {
   padding: 5rem 1rem;
   /* Padding for larger screens, adjust as needed */
 }
->>>>>>> 9e54551 (messafe)
 
 .top-right-image {
   position: absolute;
   top: 20px;
-<<<<<<< HEAD
-  /* Adjust as needed */
-  right: 40px;
-  /* Adjust as needed */
-  z-index: 1000;
-  /* Ensures it's above other content */
-=======
   right: 40px;
   z-index: 1000;
->>>>>>> 9e54551 (messafe)
 }
 
 .top-right-image img {
   max-width: 50px;
-<<<<<<< HEAD
-  /* Adjust width as needed */
-  max-height: 50px;
-  /* Adjust height as needed */
-  width: auto;
-  /* Maintain aspect ratio */
-  height: auto;
-  /* Maintain aspect ratio */
-}
-
-section {
-  position: relative;
-  /* Ensure the section is positioned relative to its container */
-=======
   max-height: 50px;
   width: auto;
   height: auto;
@@ -1190,5 +995,4 @@ section {
   .contact-info {
     font-size: 10px;
   }
->>>>>>> 9e54551 (messafe)
 }
